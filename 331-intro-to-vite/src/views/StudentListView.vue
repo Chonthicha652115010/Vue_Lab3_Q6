@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
-import StudentService from '@/services/StudentService';
+import StudentService from '@/services/PassengerService';
 
 const students = ref([])
 
